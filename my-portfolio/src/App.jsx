@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Navigation from './components/Navigation';
+import NavigationComponent from './components/NavigationComponent';
 import ProfileSection from './components/ProfileSection';
 import AboutSection from './components/AboutSection';
 import ExperienceSection from './components/ExperienceSection';
-import ProjectsSection from './components/ProjectsSection';
+import ProjectsSection from './components/ProjectSection';
 import ContactSection from './components/ContactSection';
-import Footer from './components/Footer';
+import Footer from './components/FooterComponent';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div className="m-0 p-0 font-sans scroll-smooth">
-      <Navigation isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      <NavigationComponent isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <ProfileSection />
       <AboutSection />
       <ExperienceSection />
