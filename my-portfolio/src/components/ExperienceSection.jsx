@@ -16,7 +16,7 @@ const ExperienceSection = () => {
     { name: 'JWT Authentication', level: 'Basic' },
     { name: 'Docker', level: 'Intermediate' },
     { name: 'Git', level: 'Intermediate' },
-    { name: 'CI/CD (Jenkins)', level: 'Basic' }
+    { name: 'CI/CD (Jenkins)', level: 'Intermediate' }
   ];
 
   return (
