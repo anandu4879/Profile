@@ -13,7 +13,7 @@ const ProfileSection = () => {
       <div className="self-center text-center">
         <p className="text-center font-semibold text-gray-600">Hello, I'm</p>
         <h1 className="text-5xl text-center mb-4">Ananthakrishna KP</h1>
-        <p className="text-3xl mb-4">Web Developer</p>
+        <p className="text-3xl mb-4">DevOps Engineer | Application Operations & Integration</p>
         <div className="flex justify-center gap-4 mb-4 flex-wrap">
           <button 
             className="font-semibold transition-all duration-300 py-4 px-8 rounded-full border border-gray-800 bg-transparent hover:bg-gray-800 hover:text-white"
