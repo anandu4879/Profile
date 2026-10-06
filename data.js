@@ -87,9 +87,19 @@ const DATA = {
   ],
 
   experience: [
-    { org: "TCS, Kochi", role: "Application Operations Engineer", period: "Sept-2026",
-      points: ["Production support for enterprise applications: incident response, monitoring and root-cause analysis.",
-               "Add one real incident here and what you automated or fixed afterwards."] }
+    {
+      org: "TCS, Kochi",
+      role: "Application Operations Engineer",
+      period: "Sept 2026",
+      points: [
+        "Production support for enterprise applications: incident response, monitoring and root-cause analysis.",
+        "Investigate production incidents using Grafana dashboards and Kibana log analysis, performing Root Cause Analysis (RCA) to identify recurring issues and support long-term fixes.",
+        "Troubleshoot Autosys batch job failures by analysing logs, validating job dependencies, and coordinating with application teams to restore business-critical workflows.",
+        "Execute production Change Requests (CRQs) following organisational change management processes, including pre-change validation, deployment, post-change verification, and rollback readiness.",
+        "Resolve production issues involving application failures, disk-space exhaustion, service availability, and backend connectivity while meeting agreed SLA commitments.",
+        "Collaborate with cross-functional teams to restore services quickly and document incident resolutions for future reference."
+      ]
+    }
   ],
 
   skills: {
@@ -102,7 +112,6 @@ const DATA = {
   },
 
   certs: [
-    { name: "AWS Solutions Architect Associate", status: "In progress", note: "Every topic gets built in Terraform as I study it." },
-    { name: "Certified Kubernetes Administrator", status: "Planned, January 2027", note: "Built on top of CodeStep." }
+  { name: "KodeKloud -DevOps", status: "Completed", note: "completed the course" },
   ]
 };
