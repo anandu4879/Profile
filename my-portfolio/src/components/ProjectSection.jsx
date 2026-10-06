@@ -2,6 +2,11 @@ import React from 'react';
 
 const ProjectsSection = () => {
   const projects = [
+     {
+      title: 'Production-Grade-Url-Shortener',
+      image: '/assets/project4.jpg',
+      github: 'https://github.com/anandu4879/url-shortener-devops'
+    },
     {
       title: 'Calculator',
       image: '/assets/project5 copy.PNG',
